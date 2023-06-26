@@ -1,0 +1,184 @@
+<html>
+<head>
+<meta name="viewport" content="width=320, height=480, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes"><!-- for smartphone. ここは一旦、いじらなくてOKです。 -->
+	<meta charset="utf-8"><!-- 文字コード指定。ここはこのままで。 -->
+
+	<title>カンゾーのプロフィール</title>
+
+<style>
+    .page-option{       /*ページ設定*/
+        width: 800px;
+        padding-left: 30px;     /*文字の前に空間を挿入*/
+        padding-right: 30px;
+        margin: 0 auto;     /*ページを中央揃え*/
+        font-family: 'Century';
+        background: linear-gradient(90deg, rgb(180, 235, 255), pink);
+        background-size: cover;      /*なぜか背景の全画面表示がされない？？？*/
+    }.head-option{         /*見出しの設定*/
+        font-family: 'HGP行書体';
+        font-size: 30px;
+    }.ranking{
+    list-style-type: none;
+    counter-reset: item;
+    padding: 0;
+    }.ranking li {      /*リストの設定*/
+        display: flex;
+        align-items: center; 
+        margin-bottom: 30px;
+    }.ranking li:before {      /*リスト番号の設定*/
+        content: counter(item);
+        counter-increment: item;
+        margin-left: 50px;
+        margin-right: 20px;     /*アイコンの余白設定を変更*/
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        color: white;
+        background-color: pink;
+        border-radius: 50%;
+    }.ranking li span {        /*リスト文字の設定*/
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+</style>
+
+</head>
+
+<body>
+
+    <!--ページ設定(中央寄せ / フォント設定 / 背景色)-->
+        <div class="page-option">
+
+<!-- 見出し 第１レベル -->
+<!--（氏名）の公開を避ける場合はイニシャルやニックネームでOK-->
+
+    <!--第１段落を中央に寄せて視認性を向上-->
+    <!--[1.タイトル 2.画像 3.テキスト]の３種に適用-->
+
+<h1 id="midashi_1"><img src="KANZO-Doramoji.png" alt="タイトルのドラ文字写真"
+    width="700px" style="display: block; margin: auto;"> </h1>
+
+<!--自分を象徴するような画像を入れてみよう-->
+<!--画像も同じフォルダに保存すること-->
+<img src="KANZO.jpg" alt="自分を象徴する写真"
+    title="プロフィール画像" width="500px"
+    style="display: block; margin: auto;"><br>
+<br>
+
+<div style="text-align: center; font-size: 20px;">
+サークルの熱海旅行でトリックアート迷宮館へ行った時の写真です！<br>
+
+<!--ついて来れそうだったらカーソル選択で炙り出し、紹介-->
+<p style="color: white; font-weight: bold;">周囲いわく「この写真が一番お前らしい」とのこと。誠に遺憾です。</p>
+</div>
+
+<hr>
+
+<!-- 見出し 第２レベル ・以下、h2レベルで項目を色々書いていきましょう -->
+<!-- 自己紹介で言いたい項目を見出しにいれて、文章をつくりましょう。項目名は編集OK。項目を足してもOK。 -->
+
+<h2 class="head-option">・所属など</h2>
+法学部なので民事法のゼミに所属しています。<br>
+学園祭実行委員会の副委員長を務めています。<br>
+
+
+<h2 class="head-option">・趣味や属性</h2>
+大学に入ってから、スノーボードにハマっています。<br>
+そのほか趣味はビリヤード/ボルダリング、ゲーム/音楽/漫画など...<br>
+また、ドラえもんが好きです。ホラー映画は苦手です。<br>
+
+
+<!-- HTMLで出来る色々な表現を試す -->
+<!-- ↑文字に意味を持たせることもできます。strong は太字。ググったりして色々と調べてみましょう -->
+<!-- 例として今回は「リスト表示」を作ってみましょう。項目数が３で足りないなら足してもOKです -->
+<!-- 番号をふるなら ol タグ、番号がいらないなら ul タグ で囲って、項目は li タグで括ります。 -->
+<!-- ol ・ ul 片方でOK -->
+
+<!--せっかくのランキング。ここの表示もこだわろう-->
+
+<h2 class="head-option" style="margin-top: 80px;">
+    ・好きなひみつ道具トップ３</h2>
+<p style="color: silver; display: block; margin-left: 30px;
+ margin-bottom:40px;"><strong> ※マニアが本気で選びました </strong><br></p>
+<!-- ↑文字に意味を持たせることもできます。strong は強調。太字になります。 -->
+
+
+<!--右側に３つ並んだ写真を添付し、タッチでリンクに飛べるように！-->
+
+<ol class="ranking">
+    <li>
+        <span>フエール銀行</span>
+            <a href="https://moshimodogu.com/item/fueru-ginko" target="_blank">
+            <img src="ranking-1.png" alt="第１位の写真"
+            title="フエール銀行(解説サイト)" width="150px"
+            style="display: block; margin-left: 300px; margin-right: 100px;">
+            </a>
+    </li>
+    <li>
+        <span>ポータブル国会</span>
+            <a href="https://moshimodogu.com/item/portable-kokkai" target="_blank">
+            <img src="ranking-2.png" alt="第２位の写真"
+            title="ポータブル国会(解説サイト)" width="150px"
+            style="display: block; margin-left: 280px; margin-right: 100px;">
+            </a>
+    </li>
+    <li>
+        <span>ソノウソホント</span>
+            <a href="https://moshimodogu.com/item/sono-uso-honto" target="_blank">
+            <img src="ranking-3.png" alt="第３位の写真"
+            title="ソノウソホント(解説サイト)" width="150px"
+            style="display: block; margin-left: 280px; margin-right: 100px;">
+            </a>
+    </li>
+</ol>
+
+<hr>
+
+<!-- 以下は、見出しの名前は固定で、内容を編集してみましょう -->
+<h2>その他</h2>
+
+<!-- 見出し 第３レベル -->
+<h3 class="head-option">・使用PC</h3><!-- 編集して、自分の使うPCだけ残しましょう -->
+Windows (ノートPCとデスクトップPC)
+
+<h3 class="head-option">・PC利用経験や、普段の使い方</h3>
+理系の教授に教えてもらいながら、プログラミング学習をしています。<br>
+今まではJavaで簡単なパックマンゲームを作成したり、ファイルの自動バックアップや<br>
+vscodeの環境構築をお助けするbatファイルなどを作成したり…。<br>
+また、サークルの資料を作ったりもするので、officeなんかも使います！
+
+<h3 class="head-option">・自分の強みや弱みなど</h3>
+強み：視野の広さ / 行動力<br>
+弱み：熟考癖 / 話が長い<br>
+
+
+<h3 class="head-option">・TECH-BASE参加にあたり、意気込み</h3>
+ここに集まった皆さんは環境も経緯も目標も人それぞれだと思います。<br>
+だからこそ、普段は味わえない様々な経験ができるのではと、ワクワクしています。<br>
+これから約１か月間、このチームメンバーで助け合っていけたらと思います。<br>
+よろしくお願いいたします！<br>
+<p style="color: white; text-align: right; font-size: 10px;">
+    ※本サイトの使用画像は全て著作権をクリアしています。</p>
+
+
+
+<hr>
+<a href="#midashi_1"> このページのTOPへ </a> ／ <a href="https://www.google.co.jp/" target="_blank"> ググる </a>
+<hr>
+
+<!-- 以下は投稿フォーム欄ですが、今は＆このままでは機能しておらずエラーが発生します。 -->
+<!-- したがって今はコピペするだけでOKです。スタートアップ以降のPHPミッションを進める際に、参考にしてください。 -->
+<form method="POST" action="">
+	お名前：<input type="text" name="name"><br>
+	コメント：<input type="text" name="comment"><br>
+	<input type="submit" name="submit" value="送信">
+</form>
+
+        </div>
+
+</body>
+</html>
