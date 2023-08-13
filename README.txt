@@ -4,7 +4,7 @@
 １．Beside_you
 
 なお、セキュリティの関係上データベースの情報は伏せています。
-プレビューはお写真(ファイル名)か[ https://tech-base.net/tb-250077/mission_6/Beside_you/ ]をご参照ください。
+プレビューは画像ファイル(Beside you プレビュー)か[ https://tech-base.net/tb-250077/mission_6/Beside_you/ ]をご参照ください。
 
 ２．
 
