@@ -1,0 +1,21 @@
+/*自分で追加したCSSファイル*/
+
+/*ドラ文字のダウンロード*/
+@font-face{
+    font-family: 'dora-font';
+    src: url("../font/doraemoji.ttf") format("truetype")
+}
+
+.dora-font{
+    font-family: "dora-font";
+    color: rgb(0, 20, 110);
+}
+
+/*ヘッター背景の設定*/
+.first-v {
+    background-image: url(../assets/snow_view.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
