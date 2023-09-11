@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="カンゾートゥン" />
+
+        <!-- タイトルとアイコン-->
+        <title>カンゾーのプロフィール</title>
+        <link rel="icon" type="image/x-icon" href="assets/dora.jpg" />
+
+        <!-- 無料フォントのインポート-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        
+        <!-- CSSのインポート-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/mystyles.css" rel="stylesheet">
+    </head>
+
+    <body id="page-top">
+
+        <!-- トップの設定-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">もくじ</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">自己紹介</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#favorite">好きなもの</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">開発経験</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ヘッターの設定-->
+        <header class="masthead bg-primary text-white text-center first-v">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- アバターを作成し、自画像として添付-->
+                <img class="masthead-avatar mb-5" src="assets/my_avatar.svg" alt="イメージの自画像" />
+
+                <!--タイトル-->
+                <h1 class="masthead-heading text-uppercase mb-0 dora-font">カンゾーのプロフィール</h1>
+
+                <!--タイトルマークの設定-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <p class="masthead-subheading font-weight-light mb-0">スノボとドラを愛してやまない文系大学生のサイト</p>
+            </div>
+        </header>
+
+        <!-- 自己紹介セクション-->
+        <section class="page-section mb-0 bg-light" id="about">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase">自己紹介</h2>
+
+                <!--タイトルマークの設定-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+
+                <!-- 簡易情報と写真を表示(グリッドシステム)-->
+                <div class="row">
+                    <div class="col-lg-6 ms-auto"><p class="lead lh-base"><br><所属>　国士舘大学 法学部 法律学科 ３年
+                        <br><br><サークル>　学園祭実行委員会
+                        <br><br><氏名>　カンゾートゥン　(←日本生まれです...。)
+                        <br><br><趣味>　スノーボード
+                        <br><br><特技>　子供と遊ぶこと</p></div>
+                    <div class="col-lg-4 me-auto img-fluid"><img src="assets/my_face.jpg" alt="自画像" width="400"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 好きなものセクション-->
+        <section class="page-section bg-white" id="favorite">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">好きなもの</h2>
+
+                <!-- タイトルマークの設定-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+
+                <!-- 写真形式で表示(グリッドシステム)-->
+                <div class="row justify-content-center">
+                    <!-- 1.ドラえもん-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#favoriteModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/favorite/sinen_dora.jpg" alt="..." />
+                        </div>
+                    </div>
+
+                    <!-- 2.スノーボード-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#favoriteModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/favorite/snow_board.jpg" alt="..." />
+                        </div>
+                    </div>
+
+                    <!-- 3.フェスに行くこと-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#favoriteModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/favorite/live.jpg" alt="..." />
+                        </div>
+                    </div>
+                </div>
+                <p class="display-6 text-center dora-font">クリックしてみてね！</p>
+            </div>
+        </section>
+
+    <!-- クリック時の挙動を作成 (ポートフォリオ部分と同一スタイル)-->
+
+        <!-- 「1.ドラえもん」クリック時の挙動-->
+        <div class="portfolio-modal modal fade" id="favoriteModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+
+                                    <!-- タイトル設定-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">ドラえもん</h2>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- 1.ドラえもん - Image - -->
+                                    <img class="img-fluid rounded mb-5" src="assets/favorite/sinen_dora.jpg" alt="..." />
+
+                                    <!-- 1.ドラえもん - Text - -->
+                                    <p class="mb-4">３歳の頃からドラえもんが大好きです！
+                                        <br>この写真は地元の友人と海旅行へ行った時のもので
+                                        <br>被写体はマイドラえもん、タイトルは「深淵を覗くドラ」です。
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 「2.スノーボード」クリック時の挙動-->
+        <div class="portfolio-modal modal fade" id="favoriteModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+
+                                    <!-- タイトル設定-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">スノーボード</h2>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- 「2.スノーボード」 - Image - -->
+                                    <img class="img-fluid rounded mb-5" src="assets/favorite/snow_board.jpg" alt="..." />
+
+                                    <!-- 「2.スノーボード」 - Text - -->
+                                    <p class="mb-4">高１から始めたスノボに一生ハマってます！
+                                        <br>スノボは誰とでも、ひとりでも楽しめるので最高で
+                                        <br>昨シーズンは総滑走日数が25日で、数多くの諭吉が犠牲になりました...。
+                                        <br><br>また怪我をすると本当に痛いしその後が大変なのですが、
+                                        <br>２年前に尾てい骨を打撲したときは、松葉杖くんと友達になる勢いでした。
+                                        <br>それ以降は自分と周囲の安全に配慮しながら滑っています(笑)
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 「3.ライブ(音楽)」クリック時の挙動-->
+        <div class="portfolio-modal modal fade" id="favoriteModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+
+                                    <!-- タイトル設定-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">ライブ(音楽)</h2>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- 「3.ライブ(音楽)」 - Image - -->
+                                    <img class="img-fluid rounded mb-5" src="assets/favorite/live.jpg" alt="..." />
+
+                                    <!-- 「3.ライブ(音楽)」 - Text - -->
+                                    <p class="mb-4">[sumika]や[Vaundy]、[UNISON SQUARE GARDEN]や[SUPER BEAVER]など
+                                        <br>アップテンポな邦ロックをよく聞いていて、ライブやフェスにも行きます！
+                                        <br><br>この写真はSUPER BEAVERの単独ライブで、会場の熱気からパフォーマンスまで
+                                        <br>音に支配される感覚がたまらなかったです！！
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 開発経験セクション-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- タイトル設定-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">開発経験</h2>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-6 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/portfolio/js_pacman.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-6 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/portfolio/Beside_You.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-6 mt-5 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/portfolio/batch.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-6 mt-5 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/portfolio/minecraft_for_python.jpg" alt="..." />
+                        </div>
+                    </div>
+                <p class="mt-2 display-6 text-center dora-font">クリックしてみてね！</p>
+            </div>
+        </section>
+
+    <!-- クリック時の挙動を作成 (ポートフォリオ部分と同一スタイル)-->
+
+        <!-- 「1.jsパックマン」クリック時の挙動-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- タイトル設定-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">jsパックマン</h2>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- 1.jsパックマン - Image - -->
+                                    <img class="img-fluid rounded mb-5" src="assets/portfolio/js_pacman.png" alt="..." />
+                                    <!-- 1.jsパックマン - Text - -->
+                                    <p class="mb-4">１年半前、僕のプログラミングはここから始まりました。
+                                        <br>何気なく受講した「文系向けプログラミング学習」の講義にて
+                                        <br>理工学部の教授と出会い、その方から業界事情を聞いているうちに、自然とSEを志しました。
+                                        <br><br>初心者にとってjsは難し過ぎましたが、食らいつきながら完成させた作品が
+                                        <br>この「jsパックマン」です。UIや挙動バグ、可読性の低いコード等
+                                        <br>今思えば未熟そのものですが、愛着たっぷりの作品です。
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 「2.Beside_you」クリック時の挙動-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- タイトル設定-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Beside_you</h2>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- 2.Beside_you - Image - -->
+                                    <img class="img-fluid rounded mb-5" src="assets/portfolio/Beside_You.jpg" alt="..." />
+                                    <!-- 2.Beside_you - Text - -->
+                                    <p class="mb-4">初めてのチーム型インターンでの作品です。
+                                        <br>「大切なあなたと、日常の幸せを共有したい」というコンセプトで企画・開発いたしました。
+                                        <br><br>使用言語はPHP, MySQL, js, HTML等で、本作品を機に開発の幅が広がりました。
+                                        <br>また、こちらは現在でも開発を続けており、UIの抜本的改造、API実装、
+                                        <br>ユーザー専用機能等の実装を目指し、日々取り組んでいます。
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 「3.Batchツール」クリック時の挙動-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- タイトル設定-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Batchツール</h2>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- 3.Batchツール - Image - -->
+                                    <img class="img-fluid rounded mb-5" src="assets/portfolio/batch.jpg" alt="..."/>
+                                    <!-- 3.Batchツール - Text - -->
+                                    <p class="mb-4">授業でお世話になった教授の技術を盗んで自作・改造し、私的利用していました。
+                                        <br>(ちゃんと許可は貰っています！笑)
+                                        <br><br>Winsdowsのコマンドプロンプトに使用できるBatchツールなのですが、
+                                        <br>タイムスケジューラと連携させてファイルの自動バックアップ機能を作成したり、
+                                        <br>vscodeの拡張機能を出先のPCへダウンロードするプログラムも作成しました。
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 「4.minecraft_for_python」クリック時の挙動-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- タイトル設定-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">プログラミングスクール(バイト)</h2>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- 4.minecraft_for_python - Image - -->
+                                    <img class="img-fluid rounded mb-5" src="assets/portfolio/minecraft_for_python.jpg" alt="..." />
+                                    <!-- 4.minecraft_for_python - Text - -->
+                                    <p class="mb-4">小学生向けプログラミングスクールでPythonを教えています！
+                                        <br>[mcpi]と呼ばれるPythonライブラリを用いて、MineCraftの様々な動きを自動化し、
+                                        <br>遊びの中にプログラミングを織り交ぜる形で、日々教鞭を取っています。
+                                        <br><br>小学生３年生にクラス設計を教えなくてはいけないときなどもあり、
+                                        <br>大変なことも多いですが、同時に学びが多い職場でもあります。
+                                        <br>もちろん、素直で可愛い子どもとの触れ合いも最高ですよ！
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- フッターの設定-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+
+                    <!-- リンクウェアの添付-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">リンクウェア</h4>
+                        <p class="mb-0">
+                            ドラ絵文字で使用させていただきました！
+                            <br>
+                            <a href="http://web.archive.org/web/20070809122130/http://moonglow.moo.jp/"
+                            target="_blank" class="link">
+                            👉 Moon glow 👈</a>
+                        </p>
+                    </div>
+
+                    <!-- SNSの紹介-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">SNSのご紹介</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://instagram.com/bokuha_kanzo?igshid=OGQ5ZDc2ODk2ZA=="><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/KANZO-TUN/KANZO-TUN"><i class="fa-brands fa-github"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="discordapp.com/users/1141694257950900286"><i class="fa-brands fa-discord"></i></a>
+
+
+                    </div>
+                    <!-- 最後に-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">さいごに</h4>
+                        <p class="mb-0">
+                            ここまでお読み頂きありがとうございました！
+                            <br>どの開発現場でも技術力は下から数えた方が早い
+                            <br>僕ですが、自分にしかできないことを大切に、
+                            <br>皆さんと残り３ヵ月走り抜けていきたいです。
+                            <br><br>どうぞよろしくお願いします！
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- テイルの設定-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Kanzo Website 2023</small></div>
+        </div>
+
+        <!-- jsのインポート-->
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
